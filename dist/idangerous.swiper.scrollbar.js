@@ -169,10 +169,10 @@ Swiper.prototype.plugins.scrollbar = function(swiper, params){
 			drag.style.height = dragHeight+'px';
 		}
 		if(divider>=1) {
-			container.style.display='none'
+			container.style.visibility='hidden'
 		}
 		else {
-			container.style.display=''
+			container.style.visibility=''
 		}
 
 	}
